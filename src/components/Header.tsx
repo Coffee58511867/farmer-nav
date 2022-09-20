@@ -54,8 +54,9 @@ import {
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
+              fontWeight={800}
               color={useColorModeValue('gray.800', 'white')}>
-              MarketPlace
+              Portfolio
             </Text>
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
@@ -258,29 +259,29 @@ import {
           href: '#',
         },
         {
-          label: 'About Us',
+          label: 'About Me',
           subLabel: 'Up-and-coming Designers',
           href: '#',
         },
       ],
     },
     {
-      label: 'Our Products',
+      label: 'Qualifications',
       children: [
         {
-          label: 'Job Board',
-          subLabel: 'Find your dream design job',
+          label: 'Skills',
+          subLabel: 'Find my skills here',
           href: '#',
         },
         {
-          label: 'MarketPlace',
-          subLabel: 'An exclusive list for contract work',
+          label: 'Experience',
+          subLabel: 'My work experience here',
           href: '/market',
         },
       ],
     },
     {
-      label: 'MarketPlace',
+      label: 'Contact Me',
       href: '#',
     },
     {
