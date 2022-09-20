@@ -275,7 +275,7 @@ import {
         {
           label: 'MarketPlace',
           subLabel: 'An exclusive list for contract work',
-          href: '#',
+          href: '/market',
         },
       ],
     },
