@@ -252,6 +252,7 @@ import {
   const NAV_ITEMS: Array<NavItem> = [
     {
       label: 'Home',
+      href: '/',
       children: [
         {
           label: 'Explore Design Work',
@@ -261,7 +262,7 @@ import {
         {
           label: 'About Me',
           subLabel: 'Up-and-coming Designers',
-          href: '#',
+          href: '/about',
         },
       ],
     },
@@ -271,7 +272,7 @@ import {
         {
           label: 'Skills',
           subLabel: 'Find my skills here',
-          href: '#',
+          href: '/skills',
         },
         {
           label: 'Experience',
@@ -282,7 +283,7 @@ import {
     },
     {
       label: 'Contact Me',
-      href: '#',
+      href: '/contact',
     },
     {
       label: 'More info',
