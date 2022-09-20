@@ -56,9 +56,9 @@ import {
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
           <Stack spacing={4}>
           
-            <Heading size={["sm" , "sm" , "lg"]}>Welcome to my Portfolio website</Heading>
+            <Heading size={["sm" , "sm" , "lg"]}>I am Hlalele Maroba</Heading>
             <Text color={'gray.500'} fontSize={'lg'}>
-             Here on my portfolio website is where i put all more work experience and so on
+            Welcome to my officail Portfolio Website Where I put all my work related to my work many more.
             </Text>
             <Stack
               spacing={4}

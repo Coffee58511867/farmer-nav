@@ -55,10 +55,11 @@ export default function blogPostWithImage() {
             Boost your conversion rate
           </Heading>
           <Text color={'gray.500'}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum.
+          My Name is Hlalele Maroba a Fourth Year Student at Botho University pursuing Honors Degree in Mobile Computing which i am going to Complete on December 2023. I am a web developer and designer, I am Skilled in React, Html5,
+        CSS, bootstrap.I am always building Webpages that meets user needs so
+        if you need Website or System
+        for your Company or Your Business I am a right person to build
+        for You.
           </Text>
         </Stack>
         
