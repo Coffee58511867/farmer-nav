@@ -277,7 +277,7 @@ import {
         {
           label: 'Experience',
           subLabel: 'My work experience here',
-          href: '/market',
+          href: '/qual',
         },
       ],
     },

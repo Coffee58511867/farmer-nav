@@ -5,7 +5,8 @@ import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Market from "./components/Market";
 import Skills from './components/Skills';
-import About from './components/About'
+import About from './components/About';
+import Qualifications from './components/Qualifications';
 
 const MainRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const MainRoutes = () => {
         <Route path="/contact" element={<Contact/>} />
         <Route path="/skills" element={<Skills/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/qual" element={<Qualifications/>} />
       </Routes>
     </div>
   );
