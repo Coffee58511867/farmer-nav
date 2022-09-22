@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Market from "./components/Market";
@@ -11,6 +11,7 @@ import Qualifications from './components/Qualifications';
 const MainRoutes = () => {
   return (
     <div>
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/market" element={<Market/>} />
@@ -19,6 +20,7 @@ const MainRoutes = () => {
         <Route path="/about" element={<About/>} />
         <Route path="/qual" element={<Qualifications/>} />
       </Routes>
+     
     </div>
   );
 };
