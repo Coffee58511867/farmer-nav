@@ -31,11 +31,13 @@ const Payment = () => {
             </VStack>
             <VStack>
             <Heading size= "sm" color="blue.400">2022 June - Present : Impact School </Heading>
-            <Text>I was working in Africa Code Academy as an intern  as an intern developing web application as FullStack Developer</Text>
+            <Text>I am currently working as a Mentor at Impact School where I teach students coding and training the national team that will
+         represent Lesotho in Robotics Championship, Apart from that I worked at World Vision Where i was collecting data.</Text>
             </VStack>
             <VStack>
             <Heading size= "sm" color="blue.400">2022 August : Mobile App Workshop Trainer</Heading>
-            <Text>I was working in Africa Code Academy as an intern  as an intern developing web application as FullStack Developer</Text>
+            <Text>I am currently working as a Mentor at Impact School where I teach students coding and training the national team that will
+         represent Lesotho in Robotics Championship, Apart from that I worked at World Vision Where i was collecting data.</Text>
             </VStack>
          
           </VStack>
@@ -57,22 +59,26 @@ const Payment = () => {
                <Heading size="sm">Udemy</Heading>
             </HStack>
             <HStack justifyContent="space-between" w="full">
-            <Text>Master Java Programing Language</Text>
-               <Heading size="sm">Udemy</Heading>
+            <Text>Linux Management Server and Security</Text>
+               <Heading size="sm">Cousera</Heading>
             </HStack>
          
     
             <HStack justifyContent="space-between" w="full">
-            <Text>Master Java Programing Language</Text>
-               <Heading size="sm">Udemy</Heading>
+            <Text>Windows Management Server and Security</Text>
+               <Heading size="sm">Cousera</Heading>
             </HStack>
             <HStack justifyContent="space-between" w="full">
-            <Text>Master Java Programing Language</Text>
-               <Heading size="sm">Udemy</Heading>
+            <Text>Master Data Science in Python</Text>
+               <Heading size="sm">Great Learning</Heading>
             </HStack>
             <HStack justifyContent="space-between" w="full">
-            <Text>Master Java Programing Language</Text>
-               <Heading size="sm">Udemy</Heading>
+            <Text>Master Data Science in Python</Text>
+               <Heading size="sm">Great Learning</Heading>
+            </HStack>
+            <HStack justifyContent="space-between" w="full">
+            <Text>Master Data Analytics using Excel and Sql</Text>
+               <Heading size="sm">Great Learning</Heading>
             </HStack>
            
           </VStack>
