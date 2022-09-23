@@ -29,7 +29,7 @@ import {
   } from 'react-icons/fa'
   import { BsPerson } from 'react-icons/bs';
   import Header from './Header';
-  import Footer from './Footer'
+  import Footer from './Footer2'
   
   export default function contact() {
     return (

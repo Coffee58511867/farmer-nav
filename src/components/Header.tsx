@@ -3,7 +3,6 @@ import {
     Flex,
     Text,
     IconButton,
-    Button,
     Stack,
     Collapse,
     Icon,
@@ -56,9 +55,9 @@ import {
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
-              fontSize="md"
+              fontSize="lg"
               fontWeight={800}
-              color="blue.500">
+              color="facebook.500">
               Portfolio
             </Text>
             <Spacer/>
@@ -77,8 +76,8 @@ import {
   }
   
   const DesktopNav = () => {
-    const linkColor = useColorModeValue('gray.600', 'gray.200');
-    const linkHoverColor = useColorModeValue('gray.800', 'white');
+    const linkColor = useColorModeValue('facebook.600', 'facebook.200');
+    const linkHoverColor = useColorModeValue('facebook.800', 'white');
     const popoverContentBgColor = useColorModeValue('white', 'gray.800');
   
     return (
@@ -186,7 +185,7 @@ import {
           }}>
           <Text
             fontWeight={600}
-            color={useColorModeValue('gray.600', 'gray.200')}>
+            color={useColorModeValue('facebook.600', 'gray.200')}>
             {label}
           </Text>
           {children && (
@@ -231,18 +230,6 @@ import {
     {
       label: 'Home',
       href: '/',
-      children: [
-        {
-          label: 'Explore Design Work',
-          subLabel: 'Trending Design to inspire you',
-          href: '#',
-        },
-        {
-          label: 'About Me',
-          subLabel: 'Up-and-coming Designers',
-          href: '/about',
-        },
-      ],
     },
     {
       label: 'About Me',
@@ -254,7 +241,7 @@ import {
         {
           label: 'Skills',
           subLabel: 'Find my skills here',
-          href: '/skills',
+          href: '/skill',
         },
         {
           label: 'Experience',
@@ -269,6 +256,7 @@ import {
     },
     {
       label: 'More info',
-      href: '#',
+      href: '/skills',
     },
+    
   ];

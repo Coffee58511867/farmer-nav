@@ -4,7 +4,6 @@ import {
   Heading,
   Text,
   Stack,
-  Avatar,
   Image,
 } from "@chakra-ui/react";
 import Header from "./Header";
@@ -48,7 +47,7 @@ export default function blogPostWithImage() {
               Blog
             </Text>
             <Heading fontSize={"2xl"} fontFamily={"body"}>
-              Boost your conversion rate
+             About me
             </Heading>
             <Text color={"gray.500"}>
               My Name is Hlalele Maroba a Fourth Year Student at Botho
